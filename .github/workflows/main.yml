@@ -30,4 +30,4 @@ jobs:
     - name: Run a multi-line script
       run: |
         sudo pip3 install setuptools scapy socks pysocks
-        python3 start.py -useragent useragents.txt -proxylist proxy.txt -url https://kabinet--kamakepar.repl.co -getproxy 1
+        python3 start.py -useragent useragents.txt -proxylist proxy.txt -url https://kabinet--kamakepar.repl.co/send.php -getproxy 1
